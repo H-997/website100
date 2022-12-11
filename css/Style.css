@@ -1,0 +1,88 @@
+body {
+  padding-top: 20px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+ }
+nav{
+  flex: 1;
+  text-align: right;
+}
+nav ul{
+   display: inline-block;
+   list-style-type: none;
+}
+navul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: #555;
+}
+p{
+  color: #555;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-image:url(../images/Gaming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 400px 100px;
+  background-position: center;
+}
+.col-2,h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #563434;
+}
+h1,p{
+  color: white;
+}
+h2,p{
+text-align: justify;
+}
+h3,p{
+text-align:justify;
+}
+h4,p{
+text-align: justify ;
+}
+.categories{
+  margin: 70px 0;
+}
+
+.col-3{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+}
+.col-3 img{
+  width: 100%;
+}
